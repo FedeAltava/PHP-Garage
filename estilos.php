@@ -2,7 +2,7 @@
 session_start();
 
 if(isset($_SESSION['usuario'])){
-    echo  $_SESSION['usuario']." seleccione la configuracion de estilo que prefiera." ;
+    echo  $_SESSION['usuario']." Seleccione la configuracion de estilo que prefiera." ;
 }else{
     header('Location:index.php');
 }
